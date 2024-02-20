@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./decodificador-de-texto-MADS1974/style/normalize.css">
+    <link rel="stylesheet" href="./decodificador-de-texto-MADS1974/style/style.css">
+    <link rel="shortcut icon" href="./decodificador-de-texto-MADS1974/style/img/Matrix.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <section class="leftItens">
+            <h1 class="title">Decodificador de texto</h1>
+            <div class="textLocal">
+                <input type="text" id="digiteTexto" placeholder="Digite seu texto...">
+            </div>
+            <div class="boxButton">
+                <div>
+                    <p id="textoVetor" class="alertVetor"><span id="iconeVetor" class="vetor">!</span>Apenas letras
+                        minusculas sem acento.</p>
+
+                    <button type="submit" onclick="criptografar()" id="btn_criptografar"
+                        class="buttonCriptografar">Criptografar</button>
+
+                    <button type="submit" onclick="descriptografar()"
+                        class="buttonDescriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <div>
+            <div id="area" class="boxArea">
+                <div id="areaDecodificacao" class="localTexto">
+                    
+                </div>
+                <div id="primaryArea"></div>
+                <div id="secondArea"></div> 
+                <div class="redes-sociais">
+                    <a href="https://github.com/MADS1974" class="social-icon" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/mads1974/" class="social-icon" target="_blank"><img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin-circled--v1.png" alt="linkedin"></a> <p> 
+                </p>
+                </div>
+                <div id="thirdArea"></div>
+            </div>
+        </div>
+    </div>
+
+<!--
+<audio id="sound1" src="./audio/som1.mp3"></audio>
+<audio id="soundError" src="./audio/somerro.mp3"></audio>
+<audio id="soundClick" src="./audio/click.mp3"></audio>
+-->
+
+    <script src="./decodificador-de-texto-MADS1974/js/main.js"></script>
+
+</body>
+
+</html>
