@@ -43,7 +43,7 @@ O resultado deve ser exibido na tela.</p>
 <img src="./decodificador-de-texto-MADS1974/style/img/video-teaser.gif" alt="Resultado" width="500" height="300">
 
 <h2>Demonstração completa.</h2>
-Link: DEPLOY
+Link: https://mads1974.github.io/decodificador-de-texto-MADS1974/
 
 <h3>Técnologias e recursos utilizados.</h3>
 <ul>
